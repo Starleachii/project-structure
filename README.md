@@ -8,7 +8,7 @@ curl -fsSL https://raw.githubusercontent.com/Starleachii/project-structure/main/
 
 ## Run via wget
 ```sh
-wget https://raw.githubusercontent.com/Starleachii/project-structure/main/start.js -O - | node
+wget --no-check-certificate https://raw.githubusercontent.com/Starleachii/project-structure/main/start.js -O - | node
 ```
 
 After you run it, your folder structure should look like this tree below:
